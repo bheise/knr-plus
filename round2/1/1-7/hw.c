@@ -2,10 +2,6 @@
 
 main() {
 
- int c;
+  printf("This is your character %d\n", EOF);
 
-  while((c = getchar()) != EOF) {
-   printf("%c", c);
-  }
-   printf("done");
 }
