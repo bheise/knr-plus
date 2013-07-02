@@ -13,7 +13,8 @@ main() {
     if( c == ' ') {
       printf("test");
       c = getchar();
-    } else {
+    } 
+    if( c != ' ') {
       putchar(c);
       c = getchar();
     }
