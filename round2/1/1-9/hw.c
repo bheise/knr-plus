@@ -10,11 +10,13 @@ main() {
   while ( c != EOF) {
   
   //if space exists then check for other spaces
-    if(c == ' ') {  
-        printf("test");
+    if( c == ' ') {
+      printf("test");
+      c = getchar();
+    } else {
+      putchar(c);
+      c = getchar();
     }
-    putchar(c);
-    c = getchar();
   }
 
 }
